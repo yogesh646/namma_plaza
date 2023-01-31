@@ -27,8 +27,7 @@ const [passsign, setpasssign] = useState("");
 const [save,setsave]=useState([]);
 const navi=useNavigate();
 const handlechangeable=(event)=>{
-    
-    setmobilesign(event.target.value)
+     setmobilesign(event.target.value)
 console.log(mobilesign);
 }
 const handlechange=(event)=>{
@@ -37,8 +36,8 @@ const handlechange=(event)=>{
 console.log(passsign);
 }
 const play=()=>{
-  console.log("msg");
-const be=axios.get("https://fir-afbad-default-rtdb.firebaseio.com/customers.json").then(response=>{console.log(response.data)})
+ console.log("yep");
+ navi('/del')
 }
 useEffect(() => {
     const be=axios.get("https://fir-afbad-default-rtdb.firebaseio.com/customers.json").then(response=>{setsave(response.data)});
@@ -84,7 +83,7 @@ if(mobilesign==a.Mobile && passsign==a.Password){
   return (
 
     <div className='addie'>
-        
+        bye
          {/* <Ga/> */}
          {/* Add
          <a href='/del'>move</a> */}
