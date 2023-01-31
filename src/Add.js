@@ -83,7 +83,7 @@ if(mobilesign==a.Mobile && passsign==a.Password){
   return (
 
     <div className='addie'>
-    Hogwards
+    Harry potter
          {/* <Ga/> */}
          {/* Add
          <a href='/del'>move</a> */}
